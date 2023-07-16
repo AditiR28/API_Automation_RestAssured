@@ -1,0 +1,14 @@
+{
+    "firstname":"{{firstname}}",
+    "lastname":"efgh",
+    "id":"{{id}}",
+    "designation":"xyzzzz",
+    "address":
+{
+    "ward no":"123",
+    "sector":"72",
+    "landmark":"gate"
+
+}
+    
+}
