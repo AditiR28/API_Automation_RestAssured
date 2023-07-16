@@ -31,7 +31,6 @@ public class arrayjson {
     
     array.put(0,inner1);
     array.put(1,inner2);
-    
     JSONObject outer = new JSONObject();
     
     outer.put("firstname", "aditiii");
@@ -45,7 +44,7 @@ public class arrayjson {
 			.contentType(ContentType.JSON)
 			.body(outer.toString())
 			.when()
-			.post("http://localhost:3000/APIstudents");
+			.post("http://localhost:3000/APIBatchstudents");
 			System.out.println("Status code is");
 			System.out.println(res.statusCode());
 			
