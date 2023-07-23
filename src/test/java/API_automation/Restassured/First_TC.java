@@ -25,6 +25,7 @@ public class First_TC {
         .when()
          .post("http://localhost:3000/Javastudents");
          System.out.println(res.statusCode());
+         
        
 		
 	}
