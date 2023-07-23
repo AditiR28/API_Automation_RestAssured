@@ -17,7 +17,7 @@ import static io.restassured.RestAssured.*;
 public class Fourth_TC {
 
 	public static void main(String[] args) throws FileNotFoundException {
-     File f = new File("filepath");// connection
+     File f = new File("filename path of json");// connection
      FileInputStream fi = new FileInputStream(f);//stream object
      JSONTokener js = new JSONTokener(fi); //tokener object
      JSONObject j = new JSONObject(js); //jsob object object
